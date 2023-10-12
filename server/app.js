@@ -4,10 +4,6 @@ const cors = require('cors');
 const routes = require('./routes');
 const app = require('./config/server.js');
 
-// Create an Express app
-const app = express();
-const mongoose = require('./config/database.js');
-
 // Enable CORS
 app.use(cors());
 
